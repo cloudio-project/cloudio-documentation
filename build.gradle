@@ -1,15 +1,14 @@
-task build(type: Exec) {
-    group = 'build'
-    if (project.hasProperty('sphinxPath')) {
-        environment['PATH'] = project.sphinxPath
-    }
-    commandLine 'make', 'html'
+plugins {
+    id "kr.motd.sphinx" version "2.10.0"
 }
 
-task clean(type: Exec) {
-    group = 'build'
-    if (project.hasProperty('sphinxPath')) {
-        environment['PATH'] = project.sphinxPath
-    }
-    commandLine 'make', 'clean'
+//https://trustin.github.io/sphinx-gradle-plugin/basic-usage.html
+
+sphinx {
+    // Change the source directory.
+    sourceDirectory = "${projectDir}"
+    // Change the output directory.
+    outputDirectory = "${project.buildDir}/site"
 }
+
+apply plugin: 'base'
