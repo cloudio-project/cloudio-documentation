@@ -8,7 +8,7 @@ Message based microservice architecture
 
 cloud.iO is based on a microservice architecture as illustrated in the following figure:
 
-.. figure:: _static/intro-building-blocks-1.svg
+.. figure:: _static/building-blocks-1.svg
    :align: center
    :figwidth: 75 %
 

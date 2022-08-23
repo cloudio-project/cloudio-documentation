@@ -3,7 +3,7 @@ Elements in a cloud.iO ecosystem
 
 A cloud.iO system is basically made up of three categories of elements as illustrated by the following figure:
 
-.. figure:: _static/intro-elements-1.svg
+.. figure:: _static/elements-1.svg
    :align: center
    :figwidth: 75 %
 

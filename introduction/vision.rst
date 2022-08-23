@@ -31,7 +31,7 @@ considered in the design of cloud.iO:
 In its current status, many options listed above are not implemented, but the architecture does not put any barrier to possible future development of the not
 yet implemented options.
 
-.. figure:: _static/intro-vision-1.svg
+.. figure:: _static/vision-1.svg
    :align: center
    :figwidth: 50 %
 

@@ -33,11 +33,11 @@ Finally the cloud.iO specification:
    :maxdepth: 2
    :caption: Introduction
 
-   intro-motivation
-   intro-vision
-   intro-elements
-   intro-building-blocks
-   intro-architecture
+   introduction/motivation
+   introduction/vision
+   introduction/elements
+   introduction/building-blocks
+   introduction/architecture
 
 
 .. _user-doc:

@@ -4,7 +4,7 @@ Motivation
 Many research projects need an infrastructure to monitor and control devices deployed to many different locations whereas in the most cases an internet
 connection is available. In the past, each project handled those tasks differently which led to some issues:
 
-.. figure:: _static/intro-motivation-1.svg
+.. figure:: _static/motivation-1.svg
    :align: center
 
    Redundant communication systems
